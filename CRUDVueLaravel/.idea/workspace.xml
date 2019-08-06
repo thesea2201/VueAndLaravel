@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a48b8e2-a3c8-422a-aa60-8512ce93338c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/factories/CompaniesFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CompaniesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/CompaniesTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/V1/CompaniesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/V1/CompaniesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompaniesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompaniesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/companies/CompaniesCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/companies/CompaniesCreate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/companies/CompaniesEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/companies/CompaniesEdit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/companies/CompaniesIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/companies/CompaniesIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/companies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/companies/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vueapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueapp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,7 +160,8 @@
       <workItem from="1565055308875" duration="13000" />
       <workItem from="1565062408601" duration="402000" />
       <workItem from="1565062831069" duration="10000" />
-      <workItem from="1565062843361" duration="7465000" />
+      <workItem from="1565062843361" duration="7702000" />
+      <workItem from="1565074271534" duration="5923000" />
     </task>
     <servers />
   </component>
