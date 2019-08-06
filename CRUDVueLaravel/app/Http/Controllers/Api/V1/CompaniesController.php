@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\API\V1;
+namespace App\Http\Controllers\Api\V1;
 
+use App\Company;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class Companies extends Controller
+class CompaniesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,7 @@ class Companies extends Controller
      */
     public function index()
     {
-        return Companies::all;
+        return Company::all();
     }
 
     /**
@@ -35,7 +36,8 @@ class Companies extends Controller
      */
     public function store(Request $request)
     {
-        $company = Companies::create($request->all());
+        $company = Company::create($request->all());
+
         return $company;
     }
 
@@ -47,7 +49,7 @@ class Companies extends Controller
      */
     public function show($id)
     {
-        Companies::findOrFail($id);
+        return Company::findOrFail($id);
     }
 
     /**
@@ -70,8 +72,9 @@ class Companies extends Controller
      */
     public function update(Request $request, $id)
     {
-        $company = Companies::findOrFail($id);
+        $company = Company::findOrFail($id);
         $company->update($request->all());
+
         return $company;
     }
 
@@ -83,8 +86,9 @@ class Companies extends Controller
      */
     public function destroy($id)
     {
-        $company = Companies::findOrFail($id);
+        $company = Company::findOrFail($id);
         $company->delete();
+
         return '';
     }
 }

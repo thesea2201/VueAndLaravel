@@ -6,7 +6,7 @@
 
         <div class="panel panel-default">
             <div class="panel-heading">Create new company</div>
-            <div class="panel-body">
+            <div class="panel-body ">
                 <form v-on:submit="saveForm()">
                     <div class="row">
                         <div class="col-xs-12 form-group">
@@ -58,8 +58,8 @@
         methods: {
             saveForm() {
                 event.preventDefault();
-                var app = this;
-                var newCompany = app.company;
+                let app = this;
+                let newCompany = app.company;
                 axios.post('/api/v1/companies', newCompany)
                     .then(function (resp) {
                         app.$router.push({path: '/'});

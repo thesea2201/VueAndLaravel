@@ -7,7 +7,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Companies</div>
 
-                    <div class="panel-body table-responsive">
+                    <div class="panel-body ">
                         <router-view name="companiesIndex"></router-view>
                         <router-view></router-view>
                     </div>

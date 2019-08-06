@@ -34,7 +34,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 form-group">
-                            <button class="btn btn-success">Create</button>
+                            <button class="btn btn-success">Update</button>
                         </div>
                     </div>
                 </form>
@@ -71,8 +71,8 @@
         methods: {
             saveForm() {
                 event.preventDefault();
-                var app = this;
-                var newCompany = app.company;
+                let app = this;
+                let newCompany = app.company;
                 axios.patch('/api/v1/companies/' + app.companyId, newCompany)
                     .then(function (resp) {
                         app.$router.replace('/');
